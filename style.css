@@ -1,0 +1,62 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: rgb(229, 227, 227);
+}
+.box {
+  width: 200px;
+  height: 200px;
+  border: solid 20px;
+  padding: 0px;
+  margin: 20px;
+  position: relative;
+}
+.yellow {
+  background-color: yellow;
+  border-color: rgb(136, 143, 21);
+}
+
+.red {
+  background-color: red;
+  border-color: rgb(140, 22, 22);
+}
+
+.green {
+  background-color: green;
+  border-color: rgb(9, 78, 47);
+}
+
+.boxone {
+  background-color: white;
+  display: inline-block;
+  margin: 20px;
+}
+
+.halfbox {
+  background-color: rgba(255, 255, 255, 0.62);
+  height: 50%;
+  width: 100%;
+  position: absolute;
+  bottom: 0%;
+}
+
+.innerboxgreen {
+  background-color: rgba(255, 255, 255, 0.62);
+  height: 50%;
+  width: 50%;
+  position: absolute;
+  bottom: 0%;
+  left: 0%;
+}
+
+.innerboxyellow {
+  background-color: rgba(255, 255, 255, 0.62);
+  height: 50%;
+  width: 50%;
+  position: absolute;
+  bottom: 0%;
+  right: 0%;
+}
